@@ -1,0 +1,112 @@
+
+
+/*******************************************/
+/************** Why area css **************/
+/*****************************************/
+
+
+.single_why img {
+	width: 100%;
+	max-width: 317px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.single_why_info {
+	margin-top: 28px;
+}
+
+.single_why_info h4 {
+	color: #1F2937; 
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 28px;
+	margin-bottom: 16px;
+}
+
+.why_main {
+	display: flex;
+	margin-top: 80px;
+	justify-content: space-between;
+	gap: 56px;
+}
+
+.single_why_info {
+	margin-top: 28px;
+	width: 100%;
+	max-width: 314px;
+}
+
+.single_why {
+	padding: 0 40px 56px 40px;
+}
+
+.sk_section_padding {
+	padding: 80px 0;
+}
+
+/*******************************************/
+/************ levarage area css ***********/
+/*****************************************/
+
+.leverage_right, .levarage_left {
+	background: url(../images/leverage/bg.png) no-repeat scroll center center / cover;
+	padding: 80px 40px;
+	border-radius: 30px;
+}
+
+.leverage_right p,
+.levarage_left p {
+	color: var(--White, #FFF);
+	text-align: center; 
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 24px;
+	width: 100%;
+	max-width: 397px;
+	margin: 0 auto;
+}
+
+.leverage_main {
+	display: flex;
+	margin-top: 48px;
+	justify-content: space-between;
+	gap: 15px;
+}
+
+
+
+/*******************************************/
+/************* Work area css **************/
+/*****************************************/
+
+.work_img{
+	margin-top: 24px;
+}
+
+/*******************************************/
+/************ Question area css ***********/
+/*****************************************/
+
+.question_main {
+	width: 100%;
+	max-width: 792px;
+	margin: 0 auto;
+	margin-top: 80px;
+}
+.accordion-item{
+	border: none;
+}
+
+.accordion-button.collapsed:hover:focus:focus-visible {
+	outline: none !important;
+	box-shadow: none;
+}
+
+
+
+/*******************************************/
+/************** Why area css **************/
+/*****************************************/
