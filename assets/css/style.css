@@ -89,8 +89,9 @@ body{
 	line-height: 72px;
 }
 
-
-
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+	max-width: 1400px;
+}
 /* start header area css */
 .menu {
 	padding: 27px 0;
@@ -131,7 +132,7 @@ body{
 .hero_text p {
 	color: #000;
 	font-family: Source Sans Pro;
-	font-size: 20.138px;
+	font-size: 21.138px;
 	font-style: normal;
 	font-weight: 400;
 	line-height: 158.7%;
@@ -180,7 +181,6 @@ body{
 }
 .hero_images {
 	position: relative;
-	right: -50px;
 }
 .hero_images img {
 	max-width: 800px;
@@ -273,6 +273,7 @@ body{
 /* about_entrend_main_area  */
 .about_entrend_main_area {
 	padding: 120px 0 145px;
+	background: #F8F6FE;
 }
 .section_heading p {
 	color: #333;
@@ -305,8 +306,11 @@ body{
 	width: 22.75px;
 	height: 16.763px;
 }
+.advocate_main_area .container{
+  padding: 0;
+}
 .nft_purchase_card {
-	max-width: 765px;
+	/* max-width: 765px; */
 	width: 100%;
 	border-radius: 48px;
 	border: 1px solid #273A38;
@@ -404,7 +408,7 @@ body{
 	background: linear-gradient(92deg, #273A38 48.25%, #212825 71.54%);
 }
 .purchase_send_item {
-	padding: 32px 0;
+	padding-top: 32px;
 }
 .down_arrow {
 	text-align: center;
@@ -417,6 +421,7 @@ body{
 	font-style: normal;
 	font-weight: 400;
 	line-height: normal;
+  width: 360px;
 }
 .purchase_amount p span {
 	color: #90F36C;
@@ -426,11 +431,102 @@ body{
 	font-weight: 600;
 	line-height: normal;
 }
-
-
-
-
-
+.purchase_amount input {
+	color: #CCE2E0;
+	font-family: Inter;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	background: transparent;
+	border: none;
+	opacity: 1;
+	display: flex;
+	width: 138px;
+	align-items: center;
+	padding: 0px 10px;
+}
+.purchase_amount input::placeholder{
+  opacity: 1;
+  color: #CCE2E0;
+}
+.purchase_amount {
+	flex-wrap: wrap;
+	border-radius: 40px;
+	background: linear-gradient(106deg, #0E2421 6%, rgba(29, 24, 24, 0.94) 122.1%, rgba(24, 62, 28, 0.94) 122.1%);
+	display: flex;
+	height: 72px;
+	padding: 22px 40px;
+	justify-content: space-between;
+	align-items: center;
+}
+.purchase_amount > span {
+	color: #CCE2E0;
+	text-align: right;
+}
+.purchase_address label {
+	color: #CCE2E0;
+	font-family: Inter;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+  display: block;
+  margin-bottom: 16px;
+  text-align: left;
+}
+.purchase_address input {
+	color: #4E6A59;
+	font-family: Inter;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	border-radius: 40px;
+	background: linear-gradient(106deg, #0E2421 6%, rgba(29, 24, 24, 0.94) 122.1%, rgba(24, 62, 28, 0.94) 122.1%);
+	display: flex;
+	width: 100%;
+	height: 56px;
+	padding: 20px 30px 17px 30px;
+	justify-content: center;
+	align-items: center;
+	border: none;
+}
+.purchase_address input::placeholder{
+  opacity: 1;
+}
+.purchase_address {
+	padding-top: 32px;
+	text-align: center;
+}
+.purchase_address button {
+	border-radius: 24px;
+	border: 1px solid #D7FFE1;
+	background: #90F36C;
+	color: #274533;
+	font-family: Inter;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	padding: 28px 99px;
+  margin: 46px 0px;
+}
+.purchase_address p {
+	color: #CCE2E0;
+	font-family: Inter;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+.advocate_content_area {
+	display: flex;
+	justify-content: space-between;
+}
+.col-md-12{
+  padding: 0px;
+}
 .advocate_text_area h2 span {
 	background: linear-gradient(90deg, #6053D9 0%, #9857BD 100%);
 	background-clip: text;
@@ -444,8 +540,9 @@ body{
 	text-transform: uppercase;
   display: block;
 }
-.advocate_text_area h2{
-  text-align: left;
+.advocate_text_area h2 {
+	text-align: left;
+	color: #180D5B;
 }
 .advocate_text_area p {
 	color: #000;
@@ -459,13 +556,65 @@ body{
 .advocate_text_area p span {
 	display: block;
 }
-
-
-
-
-
-
-
+.advocate_main_area {
+	padding-top: 63px;
+}
+.advocate_text_area {
+	margin-top: 99px;
+}
+/* start business area css */
+.business_text h2{
+  color: #180D5B;
+  text-align: left;
+}
+.business_text h2 span {
+	background: linear-gradient(90deg, #6053D9 0%, #9857BD 100%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	text-transform: uppercase;
+  display: block;
+}
+.business_text p {
+	color: #000;
+	font-family: Sen;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 28px;
+  margin: 24px 0px 50px;
+}
+.business_text p span{
+  display: block;
+}
+.business_left_images{
+  flex: 0 0 50%;
+}
+.business_right_text{
+  flex: 0 0 45%;
+  margin-top: 50px;
+}
+.business_content_area {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.business_text a {
+	color: #FFF;
+	font-family: Source Sans Pro;
+	font-size: 19.817px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 158.7%;
+	letter-spacing: -0.594px;
+	border-radius: 52.844px;
+	background: #000;
+	display: inline-block;
+	padding: 18px 32px;
+}
+.business_main_area {
+	padding: 145px 0 270px;
+}
 
 
 
