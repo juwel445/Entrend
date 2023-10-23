@@ -300,6 +300,175 @@ body{
 	background: rgba(0, 0, 0, 0.20);
 	backdrop-filter: blur(14.261306762695312px);
 }
+/* Start advocate_main_area css */
+.down_arrow a img {
+	width: 22.75px;
+	height: 16.763px;
+}
+.nft_purchase_card {
+	max-width: 765px;
+	width: 100%;
+	border-radius: 48px;
+	border: 1px solid #273A38;
+	background: linear-gradient(159deg, #1F2D26 35.21%, #0B0F0E 111.91%);
+	padding: 56px;
+}
+.nft_purchase_title h3 {
+	color:  #CCE2E0;
+	font-family: Inter;
+	font-size: 42px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+.nft_purchase_title h3 span{
+	color: #90F36C;
+  font-family: Inter;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal; 
+}
+.send_box p {
+	color: #CCE2E0;
+	font-family: Inter;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+.send_box a  p{
+	color: #87A4A0;
+	font-family: Inter;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	text-decoration-line: underline;
+	display: inline-block;
+}
+.send_box a span {
+	width: 22px;
+	height: 22px;
+	background: #142927;
+	color: #90F36C;
+	font-family: Inter;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: normal;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	padding: 2px 7px;
+  margin-left: 8px;
+}
+.send_box a {
+	display: flex;
+}
+.send_box {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.crypto_box button img {
+	width: 13.25px;
+	height: 15.057px;
+}
+.crypto_box button {
+	border: none;
+	color: #CCE2E0;
+	font-family: Inter;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	border-radius: 40px;
+	background: linear-gradient(106deg, #0E2421 6%, rgba(29, 24, 24, 0.94) 122.1%, rgba(24, 62, 28, 0.94) 122.1%);
+	display: flex;
+	padding: 8px 24px;
+	justify-content: center;
+	align-items: center;
+	gap: 8px;
+	width: 306px;
+	height: 56px;
+}
+.crypto_box {
+  margin-top: 16px;
+	display: flex;
+	padding: 9px 16px;
+	gap: 15px;
+	justify-content: space-around;
+	border-radius: 72px;
+	background: linear-gradient(92deg, #273A38 48.25%, #212825 71.54%);
+}
+.purchase_send_item {
+	padding: 32px 0;
+}
+.down_arrow {
+	text-align: center;
+	padding: 24px 0;
+}
+.purchase_amount p {
+	color: #CCE2E0;
+	font-family: Inter;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+.purchase_amount p span {
+	color: #90F36C;
+	font-family: Inter;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+}
+
+
+
+
+
+.advocate_text_area h2 span {
+	background: linear-gradient(90deg, #6053D9 0%, #9857BD 100%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-family: Sen;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 72px;
+	letter-spacing: 5.6px;
+	text-transform: uppercase;
+  display: block;
+}
+.advocate_text_area h2{
+  text-align: left;
+}
+.advocate_text_area p {
+	color: #000;
+	font-family: Sen;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 28px;
+	margin-top: 24px;
+}
+.advocate_text_area p span {
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
