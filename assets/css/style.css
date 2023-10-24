@@ -73,11 +73,14 @@ img{
   width: 100%;
   height: auto;
 }
+html{
+  overflow-x: hidden !important;
+}
 body{
   font-family: 'Sen', sans-serif;
   font-size: 16px;
   font-weight: 400;
-
+  overflow: hidden;
 }
 .title_1 {
 	color: #333;
