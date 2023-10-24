@@ -1,268 +1,484 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <title>Entrend Token Website</title>
+        <!--Required meta tag-->
+        <meta charset="UTF-8" />
+        <meta name="description" content="" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="og:title" content="" />
+        <meta property="og:type" content="" />
+        <meta property="og:url" content="" />
+        <meta property="og:image" content="" />
+        <!-- favicon -->
+        <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon" />
+        <!--google fonts cdn	-->
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@400;500;600;700&family=Sen:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="assets/font/stylesheet.css" />
 
-<head>
-    <title>Entrend Token Website</title>
-    <!--Required meta tag-->
-    <meta charset="UTF-8">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:title" content="">
-    <meta property="og:type" content="">
-    <meta property="og:url" content="">
-    <meta property="og:image" content="">
-    <!-- favicon -->
-    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
-    <!--google fonts cdn	-->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@400;500;600;700&family=Sen:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/font/stylesheet.css">
+        <!-- CSS File -->
+        <link rel="stylesheet" href="assets/css/normalize.css" />
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+        <!-- aos animations cdn -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <link rel="stylesheet" href="assets/css/responsive.css" />
+    </head>
 
-    <!-- CSS File -->
-    <link rel="stylesheet" href="assets/css/normalize.css">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/responsive.css">
-</head>
-
-<body>
-
-    <!--Start Header Area-->
-    <header class="header_main_area">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                     <div class="menu">
-                         <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a class="logo" href="#"><img src="assets/images/logo.png" alt="logo"></a></li>
-                            <li><a href="#">Buy</a></li>
-                            <li><a href="#">Whitepaper</a></li>
-                        </ul>
-                     </div>
-                </div>
-            </div>
-        </div>
-    </header>
-    <!--End Header Area-->
-
-    <!-- start hero section -->
-    <section class="hero_main_area">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-
-                    <div class="hero_content_area">
-                        <div class="hero_left_content">
-                             <div class="hero_log">
-                                 <img src="assets/images/logo.png" alt="logo">
-                             </div>
-                             <div class="hero_text">
-                                 <h1><span>Say Hello</span> To Entrend!</h1>
-                                 <p>Unleash the power of Web3 marketing with Entrend - Empowering brands to thrive in the decentralized revolution</p>
-                             </div>
-                             <div class="hero_button">
-                                 <a href="#">Joint entrend</a>
-                             </div>
-                        </div>
-                        <div class="hero_right_content">
-                                <div class="hero_images">
-                                        <img src="assets/images/hero.png" alt="">
-                                </div>
+    <body>
+        <!--Start Header Area-->
+        <header class="header_main_area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="menu">
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">About</a></li>
+                                <li>
+                                    <a class="logo" href="#"><img src="assets/images/logo.png" alt="logo" /></a>
+                                </li>
+                                <li><a href="#">Buy</a></li>
+                                <li><a href="#">Whitepaper</a></li>
+                            </ul>
                         </div>
                     </div>
-
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- End hero section -->
+        </header>
+        <!--End Header Area-->
 
-    <!-- Start  entrend access section -->
-    <section class="entrend_access_main_area">
-        <div class="entrend_content_area">
-              <div class="left_entrend_access_items">
+        <!-- start hero section -->
+        <section class="hero_main_area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="hero_content_area">
+                            <div class="hero_left_content" data-aos="fade-right">
+                                <div class="hero_log">
+                                    <img src="assets/images/logo.png" alt="logo" />
+                                </div>
+                                <div class="hero_text">
+                                    <h1><span>Say Hello</span> To Entrend!</h1>
+                                    <p>Unleash the power of Web3 marketing with Entrend - Empowering brands to thrive in the decentralized revolution</p>
+                                </div>
+                                <div class="hero_button">
+                                    <a href="#">Joint entrend</a>
+                                </div>
+                            </div>
+                            <div class="hero_right_content" data-aos="fade-left">
+                                <div class="hero_images">
+                                    <img src="assets/images/hero.png" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End hero section -->
+
+        <!-- Start  entrend access section -->
+        <section class="entrend_access_main_area">
+            <div class="entrend_content_area">
+                <div class="left_entrend_access_items" data-aos="fade-right">
                     <div class="tab_items_area">
                         <div class="tab">
                             <button class="tablinks" onclick="openCity(event, 'allone')" id="defaultOpen">All in One</button>
                             <button class="tablinks" onclick="openCity(event, 'global')">Global Access</button>
                             <button class="tablinks" onclick="openCity(event, 'earn')">Earn Passive Income</button>
-                          </div>
+                        </div>
                     </div>
-              </div>
-              <div class="right_entrend_acess">
+                </div>
+                <div class="right_entrend_acess" data-aos="fade-left">
                     <div class="tab_content_area">
                         <div id="allone" class="tabcontent">
-                             <div class="tab_images">
-                                 <img src="assets/images/Artboard10.png" alt="">
-                             </div>
-                             <div class="tab_txt">
-                                 <p>Streamline Your Social Media Marketing
-                                    <span>- Everything You Need in One Convenient Place</span> </p>
-                             </div>
-                             
+                            <div class="tab_images">
+                                <img src="assets/images/Artboard10.png" alt="" />
+                            </div>
+                            <div class="tab_txt">
+                                <p>Streamline Your Social Media Marketing <span>- Everything You Need in One Convenient Place</span></p>
+                            </div>
                         </div>
                         <div id="global" class="tabcontent">
                             <div class="tab_images">
-                                <img src="assets/images/Artboard10.png" alt="">
+                                <img src="assets/images/Artboard10.png" alt="" />
                             </div>
                             <div class="tab_txt">
-                                <p>Streamline Your Social Media Marketing
-                                   - Everything You Need in One Convenient Place</p>
+                                <p>Streamline Your Social Media Marketing - Everything You Need in One Convenient Place</p>
                             </div>
-                            
-                       </div>
-                       <div id="earn" class="tabcontent">
+                        </div>
+                        <div id="earn" class="tabcontent">
                             <div class="tab_images">
-                                <img src="assets/images/Artboard10.png" alt="">
+                                <img src="assets/images/Artboard10.png" alt="" />
                             </div>
                             <div class="tab_txt">
-                                <p>Streamline Your Social Media Marketing
-                                - Everything You Need in One Convenient Place</p>
+                                <p>Streamline Your Social Media Marketing - Everything You Need in One Convenient Place</p>
                             </div>
-                        
                         </div>
-
-
-
                     </div>
-              </div>
-        </div>
-    </section>
-    <!-- End  entrend access section -->
+                </div>
+            </div>
+        </section>
+        <!-- End  entrend access section -->
 
-    <!-- Start about entrend section area  -->
-    <section class="about_entrend_main_area">
-         <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="about_entrend_content">
-                         <div class="section_heading">
+        <!-- Start about entrend section area  -->
+        <section class="about_entrend_main_area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="about_entrend_content">
+                            <div class="section_heading" data-aos="fade-up">
                                 <h2 class="title_1">About ENTREND</h2>
-                                <p><span>Entrend empowers businesses to enhance their promotion efforts by allowing them to upload content through a user-friendly</span> <span>dashboard. This content can then be utilized by Entrend Advocates to spread the word about the business across their social</span> <span>media channels, offering a wider reach and greater exposure compared to traditional methods of solely posting on the</span> business's own social media accounts.</p>
-                         </div>
-                         <div class="about_entrend_video">
-                            <iframe  src="https://www.youtube.com/embed/gfGuPd1CELo?si=d1Nldw3uT_LKewOv&amp;start=6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                         </div>
+                                <p>
+                                    <span>Entrend empowers businesses to enhance their promotion efforts by allowing them to upload content through a user-friendly</span>
+                                    <span>dashboard. This content can then be utilized by Entrend Advocates to spread the word about the business across their social</span>
+                                    <span>media channels, offering a wider reach and greater exposure compared to traditional methods of solely posting on the</span> business's own social media accounts.
+                                </p>
+                            </div>
+                            <div class="about_entrend_video" data-aos="zoom-in">
+                                <iframe
+                                    src="https://www.youtube.com/embed/gfGuPd1CELo?si=d1Nldw3uT_LKewOv&amp;start=6"
+                                    title="YouTube video player"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen
+                                ></iframe>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-         </div>
-    </section>
-    <!-- End about entrend section area  -->
+        </section>
+        <!-- End about entrend section area  -->
 
-    <!-- Start advocate main area -->
-    <section class="advocate_main_area">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="advocate_content_area">
-                          <div class="advocate_text_area">
-                                <h2 class="title_1">What are
-                                    <span>Advocates?</span></h2>
-                                <p><span>Entrend Advocates promote content and expand businesses' reach.</span> <span>Anyone interested in generating passive income with a social media</span> <span>following can become an Advocate. They select tasks from the Task</span> <span>Feed, completing them and receiving ENT tokens as payment, which can</span> <span>be turned into cash! Advocates use keywords to search for tasks and</span> <span>filter results based on their interests, connecting with businesses that</span> <span>share similar interests to target their promotions towards the right</span> audience.</p>
-                          </div>
+        <!-- Start advocate main area -->
+        <section class="advocate_main_area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="advocate_content_area">
+                            <div class="advocate_text_area" data-aos="fade-up">
+                                <h2 class="title_1">What are <span>Advocates?</span></h2>
+                                <p>
+                                    <span>Entrend Advocates promote content and expand businesses' reach.</span> <span>Anyone interested in generating passive income with a social media</span>
+                                    <span>following can become an Advocate. They select tasks from the Task</span> <span>Feed, completing them and receiving ENT tokens as payment, which can</span>
+                                    <span>be turned into cash! Advocates use keywords to search for tasks and</span> <span>filter results based on their interests, connecting with businesses that</span>
+                                    <span>share similar interests to target their promotions towards the right</span> audience.
+                                </p>
+                            </div>
 
-                          <div class="purchase_nft_area">
+                            <div class="purchase_nft_area" data-aos="fade-up">
                                 <div class="nft_purchase_card">
-                                     <div class="nft_purchase_title">
-                                         <h3>Purchase <span>ENT</span> now</h3>
-                                     </div>
-                                     <div class="purchase_sender_area">
-                                         <div class="purchase_send_item">
-                                              <div class="send_box">
-                                                 <p>Send</p>
-                                                 <a href="#"><p>How does this work</p>   <span>?</span></a>
-                                              </div>
-                                              <div class="crypto_box">
-                                                  <button>Crypto</button>
-                                                  <button>Fiat <img src="assets/images/flat_icon.svg" alt=""></button>
-                                              </div>
-                                              <div class="down_arrow">
-                                                 <a href="#"><img src="assets/images/down_long.svg" alt=""></a>
-                                              </div>
-                                              <div class="purchase_amount_items">
-                                                   <div class="purchase_amount">
-                                                        <p><span>$ENT</span> BEP-20</p>
-                                                        <span>|</span>
-                                                        <input type="text" placeholder="0.00">
-                                                   </div>
-                                              </div>
-                                              <div class="purchase_address">
-                                                    <label for="purchase">Destination wallet</label>
-                                                    <input type="text" id="purchase"  placeholder="Enter the address where you want to receive $ENT">
-                                                    <button type="submit">Purchase</button>
-                                                    <p>Powered by Shhwap</p>
-                                              </div>
-                                              
-                                         </div>
-                                     </div>
+                                    <div class="nft_purchase_title">
+                                        <h3>Purchase <span>ENT</span> now</h3>
+                                    </div>
+                                    <div class="purchase_sender_area">
+                                        <div class="purchase_send_item">
+                                            <div class="send_box">
+                                                <p>Send</p>
+                                                <a href="#">
+                                                    <p>How does this work</p>
+                                                    <span>?</span>
+                                                </a>
+                                            </div>
+                                            <div class="crypto_box">
+                                                <button>Crypto</button>
+                                                <button>Fiat <img src="assets/images/flat_icon.svg" alt="" /></button>
+                                            </div>
+                                            <div class="down_arrow">
+                                                <a href="#"><img src="assets/images/down_long.svg" alt="" /></a>
+                                            </div>
+                                            <div class="purchase_amount_items">
+                                                <div class="purchase_amount">
+                                                    <p><span>$ENT</span> BEP-20</p>
+                                                    <span>|</span>
+                                                    <input type="text" placeholder="0.00" />
+                                                </div>
+                                            </div>
+                                            <div class="purchase_address">
+                                                <label for="purchase">Destination wallet</label>
+                                                <input type="text" id="purchase" placeholder="Enter the address where you want to receive $ENT" />
+                                                <button type="submit">Purchase</button>
+                                                <p>Powered by Shhwap</p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                          </div>
-
-
-
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End advocate main area -->
-
-    <!-- Start business main area -->
-    <section class="business_main_area">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="business_content_area">
-                        <div class="business_left_images">
-                             <div class="desktop_business_images">
-                                 <img src="assets/images/business.png" alt="">
-                             </div>
-                        </div>
-                        <div class="business_right_text">
-                             <div class="business_text">
-                                 <h2 class="title_1">Who are <span>Bussiness?</span></h2>
-                                 <p><span>Entrend Advocates promote content and expand businesses' reach.</span> <span>Anyone interested in generating passive income with a social media</span> <span>following can become an Advocate. They select tasks from the Task</span> <span>Feed, completing them and receiving ENT tokens as payment, which can</span> <span>be turned into cash! Advocates use keywords to search for tasks and</span> <span>filter results based on their interests, connecting with businesses that</span> <span>share similar interests to target their promotions towards the right</span> audience.</p>
-                                 <a href="#">Become A Business</a>
-                             </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- End business main area -->
+        </section>
+        <!-- End advocate main area -->
 
-    <!-- Start user flow main area -->
-    <section class="user_flow_main_area">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="user_flow_content">
-                        <img src="assets/images/user-flow.png" alt="">
+        <!-- Start business main area -->
+        <section class="business_main_area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="business_content_area">
+                            <div class="business_left_images" data-aos="fade-up">
+                                <div class="desktop_business_images">
+                                    <img src="assets/images/business.png" alt="" />
+                                </div>
+                            </div>
+                            <div class="business_right_text" data-aos="fade-up">
+                                <div class="business_text">
+                                    <h2 class="title_1">Who are <span>Bussiness?</span></h2>
+                                    <p>
+                                        <span>Entrend Advocates promote content and expand businesses' reach.</span> <span>Anyone interested in generating passive income with a social media</span>
+                                        <span>following can become an Advocate. They select tasks from the Task</span> <span>Feed, completing them and receiving ENT tokens as payment, which can</span>
+                                        <span>be turned into cash! Advocates use keywords to search for tasks and</span> <span>filter results based on their interests, connecting with businesses that</span>
+                                        <span>share similar interests to target their promotions towards the right</span> audience.
+                                    </p>
+                                    <a href="#">Become A Business</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- End user flow main area -->
+        </section>
+        <!-- End business main area -->
 
+        <!-- Start user flow main area -->
+        <section class="user_flow_main_area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="user_flow_content" data-aos="zoom-in">
+                            <img src="assets/images/user-flow.png" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End user flow main area -->
 
+        <!--Start why entrend section area  -->
+        <section class="why_entrend section_padding">
+            <div class="container">
+                <div class="section_heading" data-aos="fade-up">
+                    <h1 class="title_1">Why Entrend?</h1>
+                </div>
+                <div class="why_main">
+                    <div class="single_why" data-aos="fade-right">
+                        <img src="assets/images/why/1.png" alt="" />
+                        <div class="single_why_info">
+                            <h4>Network of advocates</h4>
+                            <p>Entrend provides businesses with a global network of advocates for unparalleled global reach in digital marketing.</p>
+                        </div>
+                    </div>
+                    <div class="single_why" data-aos="fade-up">
+                        <img src="assets/images/why/2.png" alt="" />
+                        <div class="single_why_info">
+                            <h4>Blockchain technology</h4>
+                            <p>The platform offers AI tools, customizable tasks, and transparent payments through blockchain technology.</p>
+                        </div>
+                    </div>
+                    <div class="single_why" data-aos="fade-left">
+                        <img src="assets/images/why/3.png" alt="" />
+                        <div class="single_why_info">
+                            <h4>Social media</h4>
+                            <p>Simplify social media management, streamline digital marketing efforts.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End why entrend section area  -->
 
+        <!-- Start Leverage section area  -->
+        <section class="leverage_area section_padding">
+            <div class="container">
+                <div class="section_heading" data-aos="fade-up">
+                    <h1 class="title_1">Leverage Your Socials</h1>
+                    <p>
+                        Join Entrend today and start leveraging your social media following to earn passive income. <br />
+                        Whether you're looking to supplement your income or replace your full-time job, Entrend provides an opportunity <br />
+                        to earn money by completing tasks from the Task Feed.
+                    </p>
+                </div>
+                <div class="leverage_main">
+                    <div class="levarage_left" data-aos="fade-right">
+                        <img src="assets/images/leverage/1.png" alt="" />
+                        <p>As an Advocate, you can filter tasks based on your interests and connect with businesses that share similar passions.</p>
+                    </div>
+                    <div class="leverage_right" data-aos="fade-left">
+                        <img src="assets/images/leverage/2.png" alt="" />
+                        <p>Earn USDC as payment for completing tasks and start building your income stream today! Complete 5 tasks and get rewarded!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Leverage section area  -->
 
+        <!-- Start Work section area  -->
+        <section class="work_area section_padding">
+            <div class="container">
+                <div class="section_heading" data-aos="fade-up">
+                    <h1 class="title_1">Work Gamified</h1>
+                    <p>
+                        Entrend is a platform that aims to make work fun and exciting by gamifying the process for businesses and advocates. The platform <br />
+                        has introduced mystery boxes as part of its reward system to enhance the user experience and add value to the ENT token.
+                    </p>
+                </div>
+                <div class="work_img" data-aos="fade-up">
+                    <img src="assets/images/work/img.png" alt="" />
+                </div>
+            </div>
+        </section>
+        <!-- End Work section area  -->
 
+        <!-- Start question section area  -->
+        <section class="question_area section_padding">
+            <div class="container">
+                <div class="section_heading" data-aos="fade-up">
+                    <h1 class="title_1">Frequently Asked Question</h1>
+                </div>
+                <div class="question_main">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item" data-aos="fade-up">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    Do we have free plan?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                                        qui officia deserunt mollit anim id est laborum.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
 
+                        <div class="accordion-item" data-aos="fade-up">
+                            <h2 class="accordion-header" id="flush-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                    Do we have any physical office?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                                        qui officia deserunt mollit anim id est laborum.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
 
-    <!-- JS File -->
-    <script src="assets/js/modernizr-3.11.2.min.js"></script>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/popper.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/custom.js"></script>
+                        <div class="accordion-item" data-aos="fade-up">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                    Do we hire new employes?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                                        qui officia deserunt mollit anim id est laborum.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
 
-</body>
+                        <div class="accordion-item" data-aos="fade-up">
+                            <h2 class="accordion-header" id="flush-headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                    What is our mission?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                                        qui officia deserunt mollit anim id est laborum.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End question section area  -->
 
+        <!-- End question section area  -->
+        <footer class="footer_area">
+            <div class="container">
+                <div class="footer_main">
+                    <div class="footer_single">
+                        <h4>Protocols</h4>
+                        <ul class="footer_list">
+                            <li><a href="#">Liquidity Protocol</a></li>
+                            <li><a href="#">Aggregation Protocol</a></li>
+                            <li><a href="#">Limit Order Protocol</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer_single">
+                        <h4>Governance</h4>
+                        <ul class="footer_list">
+                            <li><a href="#">1inch DAO</a></li>
+                            <li><a href="#">1INCH token</a></li>
+                            <li><a href="#">Forum</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer_single">
+                        <h4>Support</h4>
+                        <ul class="footer_list">
+                            <li><a href="#">Help center</a></li>
+                            <li><a href="#">Press room</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer_single">
+                        <h4>Developers</h4>
+                        <ul class="footer_list">
+                            <li><a href="#">Documentation</a></li>
+                            <li><a href="#">GitHub</a></li>
+                            <li><a href="#">Audit</a></li>
+                            <li><a href="#">Bug bounty</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer_single">
+                        <h4>Subscribe to 1inch newsletter</h4>
+                        <p>Get the latest news and updates</p>
+                        <a href="#">Subscribe</a>
+                    </div>
+                </div>
+                <hr />
+                <div class="copy_footer">
+                    <p>© 2022 1inch, All Rights Reserved.</p>
+                    <p>ENS: 1inch.eth</p>
+                    <p>BUIDL @ETHNewYork 2019</p>
+                </div>
+            </div>
+        </footer>
+        <!-- End question section area  -->
+
+        <!-- JS File -->
+        <script src="assets/js/modernizr-3.11.2.min.js"></script>
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <!-- Aos animation js -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="assets/js/custom.js"></script>
+
+        <script>
+            AOS.init({
+                duration: 800,
+            });
+        </script>
+    </body>
 </html>
