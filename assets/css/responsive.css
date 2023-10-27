@@ -128,12 +128,14 @@
     }
     .carousel__next {
         top: 650px;
-        transform: rotate(-90deg);
+        -webkit-transform: rotate(-90deg);
+                transform: rotate(-90deg);
     }
     .carousel__prev {
         top: 650px;
         right: 15px;
-        transform: rotate(-90deg);
+        -webkit-transform: rotate(-90deg);
+                transform: rotate(-90deg);
     }
     .tab button {
         font-size: 22px;
@@ -356,7 +358,9 @@
     }
     .tab_items_area .tab {
         padding: 95px 0 35px;
-        justify-content: space-evenly;
+        -webkit-box-pack: space-evenly;
+            -ms-flex-pack: space-evenly;
+                justify-content: space-evenly;
     }
 
 
@@ -575,6 +579,7 @@
         font-style: normal;
         font-weight: 700;
         line-height: 34px;
+        background: -webkit-linear-gradient(296deg, #1EBFF8 9.57%, #A38DF8 73.43%);
         background: linear-gradient(154deg, #1EBFF8 9.57%, #A38DF8 73.43%);
         background-clip: text;
         -webkit-background-clip: text;
@@ -597,18 +602,21 @@
         margin: auto;
     }
     .user_flow_top_title  span.user_reward {
+        background: -webkit-linear-gradient(296deg, #FA77A4 9.72%, #DBC21A 76.33%);
         background: linear-gradient(154deg, #FA77A4 9.72%, #DBC21A 76.33%);
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
     .user_flow_top_title .get_paid_flow {
+        background: -webkit-linear-gradient(65deg, #A257F5 9.39%, #DF67FA 71.49%);
         background: linear-gradient(25deg, #A257F5 9.39%, #DF67FA 71.49%);
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
     .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+        background: -webkit-linear-gradient(left, #6053D9 0%, #9857BD 100%);
         background: linear-gradient(90deg, #6053D9 0%, #9857BD 100%);
     }
     .owl-theme .owl-dots .owl-dot span {
@@ -618,11 +626,26 @@
         background: #180D5B;
         display: block;
         -webkit-backface-visibility: visible;
+        -webkit-transition: opacity .2s ease;
         transition: opacity .2s ease;
         border-radius: 30px;
     }
     .user_flow_main_area {
         padding-bottom: 40px;
+    }
+    .work_area .section_heading h1{
+        display: none;
+    }
+    .work_area .section_heading h2{
+        display: block;
+    }
+    .work_area .section_heading h2 span {
+        background: -webkit-linear-gradient(left, #6053D9 0%, #9857BD 100%);
+        background: linear-gradient(90deg, #6053D9 0%, #9857BD 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-transform: uppercase;
     }
 }
 
