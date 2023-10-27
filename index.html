@@ -20,6 +20,8 @@
         <link rel="stylesheet" href="assets/css/normalize.css" />
         <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
         <!-- aos animations cdn -->
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
         <link rel="stylesheet" href="assets/css/style.css" />
@@ -69,7 +71,48 @@
                             </div>
                             <div class="hero_right_content" data-aos="fade-left">
                                 <div class="hero_images">
-                                    <img src="assets/images/hero.png" alt="" />
+
+                                    <div class="carousel">
+                                        <div class="carousel__wrapper">
+                                          <div id="carousel__slider" class="carousel__slider">
+
+                                            <div class="carousel__slide" data-class="1" data-position="1">
+                                              <div class="carousel__content">
+                                                  <div class="slider_images">
+                                                     <img src="assets/images/slider.png" alt="">
+                                                  </div>
+                                              </div>
+                                            </div>
+
+                                            <div class="carousel__slide mid" data-class="2" data-position="2">
+                                              <div class="carousel__content">
+                                                <div class="slider_images">
+                                                    <img src="assets/images/slider.png" alt="">
+                                                 </div>
+                                              </div>
+                                            </div>
+                                            <div class="carousel__slide right" data-class="3" data-position="3">
+                                              <div class="carousel__content">
+                                                <div class="slider_images">
+                                                    <img src="assets/images/slider.png" alt="">
+                                                 </div>
+                                              </div>
+                                            </div>
+                                            <div class="carousel__slide left" data-class="4" data-position="4">
+                                              <div class="carousel__content">
+                                                <div class="slider_images">
+                                                    <img src="assets/images/slider.png" alt="">
+                                                 </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div id="carousel__next" class="carousel__next"><span></span>
+                                          </div>
+                                          <div id="carousel__prev" class="carousel__prev"><span></span>
+                                          </div>
+                                        </div>
+                                    </div>
+
                                 </div>
                             </div>
                         </div>
@@ -81,44 +124,49 @@
 
         <!-- Start  entrend access section -->
         <section class="entrend_access_main_area">
-            <div class="entrend_content_area">
-                <div class="left_entrend_access_items" data-aos="fade-right">
-                    <div class="tab_items_area">
-                        <div class="tab">
-                            <button class="tablinks" onclick="openCity(event, 'allone')" id="defaultOpen">All in One</button>
-                            <button class="tablinks" onclick="openCity(event, 'global')">Global Access</button>
-                            <button class="tablinks" onclick="openCity(event, 'earn')">Earn Passive Income</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="right_entrend_acess" data-aos="fade-left">
-                    <div class="tab_content_area">
-                        <div id="allone" class="tabcontent">
-                            <div class="tab_images">
-                                <img src="assets/images/Artboard10.png" alt="" />
-                            </div>
-                            <div class="tab_txt">
-                                <p>Streamline Your Social Media Marketing <span>- Everything You Need in One Convenient Place</span></p>
-                            </div>
-                        </div>
-                        <div id="global" class="tabcontent">
-                            <div class="tab_images">
-                                <img src="assets/images/Artboard10.png" alt="" />
-                            </div>
-                            <div class="tab_txt">
-                                <p>Streamline Your Social Media Marketing - Everything You Need in One Convenient Place</p>
-                            </div>
-                        </div>
-                        <div id="earn" class="tabcontent">
-                            <div class="tab_images">
-                                <img src="assets/images/Artboard10.png" alt="" />
-                            </div>
-                            <div class="tab_txt">
-                                <p>Streamline Your Social Media Marketing - Everything You Need in One Convenient Place</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="container">
+                 <div class="row">
+                     <div class="col-md-12">
+                            <div class="entrend_content_area">
+                                <div class="tab_content_area" data-aos="fade-up">
+                                    <div id="allone" class="tabcontent">
+                                        <div class="tab_images">
+                                            <img src="assets/images/Artboard10.png" alt="" />
+                                        </div>
+                                        <div class="tab_txt">
+                                            <p>Unleash the power of Web3 marketing with Entrend - Empowering brands to thrive in the decentralized revolution</p>
+                                        </div>
+                                    </div>
+                                    <div id="global" class="tabcontent">
+                                        <div class="tab_images">
+                                            <img src="assets/images/tab2.png" alt="" />
+                                        </div>
+                                        <div class="tab_txt">
+                                            <p>Access Entrend and get paid from anywhere around the world. Payouts in cryptocurrency allow instant cross border payments</p>
+                                        </div>
+                                    </div>
+                                    <div id="earn" class="tabcontent">
+                                        <div class="tab_images">
+                                            <img src="assets/images/tab3.png" alt="" />
+                                        </div>
+                                        <div class="tab_txt">
+                                            <p>The earning possibilities with Entrend is infinite! With a wide variety of tasks, there is an opportunity for everyone!</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tab_items_area" data-aos="fade-up">
+                                    <div class="tab">
+                                        <button class="tablinks" onclick="openCity(event, 'allone')" id="defaultOpen">All in One</button>
+                                        <button class="tablinks" onclick="openCity(event, 'global')">Global Access</button>
+                                        <button class="tablinks" onclick="openCity(event, 'earn')">Earn Passive <span>Income</span></button>
+                                    </div>
+                                </div>
+                                
+                             </div>
+
+                     </div>
+                 </div>
             </div>
         </section>
         <!-- End  entrend access section -->
@@ -169,44 +217,13 @@
                                 </p>
                             </div>
 
-                            <div class="purchase_nft_area" data-aos="fade-up">
-                                <div class="nft_purchase_card">
-                                    <div class="nft_purchase_title">
-                                        <h3>Purchase <span>ENT</span> now</h3>
-                                    </div>
-                                    <div class="purchase_sender_area">
-                                        <div class="purchase_send_item">
-                                            <div class="send_box">
-                                                <p>Send</p>
-                                                <a href="#">
-                                                    <p>How does this work</p>
-                                                    <span>?</span>
-                                                </a>
-                                            </div>
-                                            <div class="crypto_box">
-                                                <button>Crypto</button>
-                                                <button>Fiat <img src="assets/images/flat_icon.svg" alt="" /></button>
-                                            </div>
-                                            <div class="down_arrow">
-                                                <a href="#"><img src="assets/images/down_long.svg" alt="" /></a>
-                                            </div>
-                                            <div class="purchase_amount_items">
-                                                <div class="purchase_amount">
-                                                    <p><span>$ENT</span> BEP-20</p>
-                                                    <span>|</span>
-                                                    <input type="text" placeholder="0.00" />
-                                                </div>
-                                            </div>
-                                            <div class="purchase_address">
-                                                <label for="purchase">Destination wallet</label>
-                                                <input type="text" id="purchase" placeholder="Enter the address where you want to receive $ENT" />
-                                                <button type="submit">Purchase</button>
-                                                <p>Powered by Shhwap</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                            <div class="advocate_images_area" data-aos="fade-left">
+                                 <div class="advocate_images">
+                                    <img src="assets/images/advocate_side.png" alt="">
+                                 </div>
                             </div>
+
+                            
                         </div>
                     </div>
                 </div>
@@ -251,6 +268,53 @@
                     <div class="col-md-12">
                         <div class="user_flow_content" data-aos="zoom-in">
                             <img src="assets/images/user-flow.png" alt="" />
+                        </div>
+                        <div class="user_flow_mobile_area" data-aos="fade-up">
+                            <div class="user_flow_title">
+                                 <h2 class="title_1">user <span>flow</span></h2>
+                            </div>
+                             <div class="mobile_user_flow_content owl-carousel owl-theme">
+
+                                    <div class="single_user_flow">
+                                        <div class="user_flow_top_title">
+                                             <h4>BUSINESS</h4>
+                                             <span>Create & Fund Task:</span>
+                                        </div>
+                                        <div class="user_flow_txt">
+                                             <p>Task Sharing Made Easy. Post a Task and have it completed by our network of multiple Advocates. One task, multiple shares, maximum reach!</p>
+                                        </div>
+                                    </div>
+                                    <div class="single_user_flow">
+                                        <div class="user_flow_top_title">
+                                             <h4>Advocate</h4>
+                                             <span>Choose & Complete Task</span>
+                                        </div>
+                                        <div class="user_flow_txt">
+                                             <p>Find Your Perfect Match - Scroll Through Our Task Feed and Discover Opportunities to Promote Businesses You'll Love!</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="single_user_flow">
+                                        <div class="user_flow_top_title">
+                                             <h4>BUSINESS</h4>
+                                             <span class="user_reward">Verify & Reward:</span>
+                                        </div>
+                                        <div class="user_flow_txt">
+                                             <p>Easily view completed tasks with our seamless dashboard. Approve or Deny submitted tasks to reward the Advocate.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="single_user_flow">
+                                        <div class="user_flow_top_title">
+                                             <h4>Advocate</h4>
+                                             <span class="get_paid_flow">Get Paid</span>
+                                        </div>
+                                        <div class="user_flow_txt">
+                                             <p>Earn Money for promoting content! Generate passive income anytime, anywhere. Join the revolution.</p>
+                                        </div>
+                                    </div>
+
+                             </div>
                         </div>
                     </div>
                 </div>
@@ -471,6 +535,7 @@
         <script src="assets/js/jquery.min.js"></script>
         <script src="assets/js/popper.min.js"></script>
         <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/owl.carousel.min.js"></script>
         <!-- Aos animation js -->
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script src="assets/js/custom.js"></script>
