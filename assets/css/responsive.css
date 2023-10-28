@@ -647,6 +647,19 @@
         -webkit-text-fill-color: transparent;
         text-transform: uppercase;
     }
+    .business_left_images {
+        order: 1;
+        margin-top: 50px;
+    }
+    .mobile_none{
+        display: none;
+    }
+    .desktop_none{
+        display: block;
+    }
+    .work_img {
+        margin-top: 40px;
+    }
 }
 
 @media all and (max-width: 450px){
