@@ -221,6 +221,15 @@
     .about_entrend_main_area {
         padding: 120px 0 120px;
     }
+    .levarage_left p {
+        margin-top: 20px;
+    }
+    .accordion-button {
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                    -ms-grid-row-align: flex-start;
+                align-items: flex-start;
+    }
 }
 
 
@@ -648,7 +657,9 @@
         text-transform: uppercase;
     }
     .business_left_images {
-        order: 1;
+        -webkit-box-ordinal-group: 2;
+            -ms-flex-order: 1;
+                order: 1;
         margin-top: 50px;
     }
     .mobile_none{
@@ -659,6 +670,9 @@
     }
     .work_img {
         margin-top: 40px;
+    }
+    .user_flow_mobile_area {
+        display: block;
     }
 }
 
@@ -757,5 +771,8 @@
         font-size: 14px;
         line-height: 20px;
         padding: 10px 10px;
+    }
+    .footer_logo a img {
+        max-width: 250px;
     }
 }

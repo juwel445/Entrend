@@ -58,6 +58,9 @@ document.getElementById("defaultOpen").click();
         classes.add("left");
       }
     });
+
+    // Automatically trigger the nextCard function after 3 seconds
+    setTimeout(nextCard, 3000, cards);
   }
 
   function previousCard(cards) {
@@ -75,8 +78,28 @@ document.getElementById("defaultOpen").click();
         classes.add("mid");
       }
     });
+
+    // Automatically trigger the nextCard function after 3 seconds
+    setTimeout(nextCard, 3000, cards);
   }
+
+  // Automatically start the carousel after the page loads
+  setTimeout(nextCard, 3000, cards);
 })(jQuery);
+
+
+window.addEventListener("scroll", function() {
+  var header = document.querySelector('.header_main_area');
+  if (window.scrollY > 0) {
+    header.classList.add('sticky');
+  } else {
+    header.classList.remove('sticky');
+  }
+});
+
+
+
+
 
 $(document).ready(function(){
 
@@ -89,7 +112,26 @@ $(document).ready(function(){
 
   });
 
+  $('.menu ul li a').click(function(){
+
+    $('html,body').animate({
+      scrollTop:$($(this).attr('href')).offset().top
+    },800);
+
+    return false;
+  });
 
 
 
 });
+
+
+
+
+
+
+
+
+
+
+
