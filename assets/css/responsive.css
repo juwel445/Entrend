@@ -485,9 +485,12 @@
     .business_main_area {
         padding: 100px 0 100px;
     }
-    .business_text a {
+    .business_text a, .advocate_text_area a {
         font-size: 16px;
         padding: 16px 24px;
+    }
+    .advocate_text_area p {
+        margin: 24px 0px 24px;
     }
 
     .leverage_right p, .levarage_left p { 
